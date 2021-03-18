@@ -1,9 +1,13 @@
 // import functions and grab DOM elements
-//Future implementation
-//const computeButton = document.getElementById('calc-button');
-//const digitOne = document.getElementById('number1');
-//const digitTwo = document.getElementById('number2');
-//const solution = compute(digitOne, digitTwo);
+//Future drop down implementation
+//const computeButton = document.getElementById('calculate');
+//const digitOne = document.getElementById('input1');
+//const digitTwo = document.getElementById('input2');
+//const operatorOne = document.getElementById('a');
+//const operatorTwo = document.getElementById('b');
+//const operatorThree = document.getElementById('c');
+//const operatorFour = document.getElementById('d');
+//const answer = document.getElementById('solution');
 
 //Addition
 const valueOne = document.getElementById('num1');
@@ -61,14 +65,14 @@ divButton.addEventListener('click', () => {
 });
 
 
+//computeButton.addEventListener('click', () => {
+//    const x = digitOne.valueAsNumber;
+//    const y = digitTwo.valueAsNumber;
+//
+//    if (mainOperator = operatorOne) {
+//   const solution = x + y;
+//    answer.textContent = solution;
+//}
+//
+//});
 
-
-
-
-
-//be able to select operator
-//each operator needs an id
-//be able to tell which operator is selected by user
-//apply correct operator to correct function
-//if 'x' is selected, do 'y'
-//take value obtained and post to page

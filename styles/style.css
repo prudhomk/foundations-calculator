@@ -45,15 +45,36 @@ section {
     border: solid 2px var(--color1);
 }
 
+span {
+    border: 2px;
+    border-style: solid;
+    padding: 2px;
+}
+
+.add {
+    display:flex;
+    padding: 2px;
+}
+
+.sub {
+    display:flex;
+    padding: 2px;
+}
+
+.mul {
+    display:flex;
+    padding: 2px;
+}
+
+.divd {
+    display:flex;
+    padding: 2px;
+}
+
 
 .main-logo {
     animation: pulse 5s infinite ease-in-out;
 }
-
-
-
-
-
   @keyframes pulse {
     20% {
       transform: rotate3d(-10, -10, -10, 50deg) scale(1.2);
